@@ -13,6 +13,7 @@ import org.springframework.web.bind.annotation.*;
 import javax.servlet.http.HttpServletRequest;
 
 import static com.bankofapis.core.model.common.Constants.CONSENT_ID_HEADER;
+import static com.bankofapis.remote.common.Endpoints.*;
 
 @RestController
 @RequestMapping("/open-banking/*/pisp")

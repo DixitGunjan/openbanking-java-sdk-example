@@ -4,7 +4,7 @@ import com.bankofapis.core.model.accounts.*;
 import com.bankofapis.web.service.AispService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
-
+import static com.bankofapis.remote.common.Endpoints.*;
 import javax.servlet.http.HttpServletRequest;
 
 import static com.bankofapis.core.model.common.Constants.CONSENT_ID_HEADER;
